@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFA500;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cv-btn {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.lang-switch {
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero .description {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .avatar {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.technologies {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.technologies .tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projects {
+    background-color: #e0e0e0;
+    padding: 50px 20px;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact {
+    background-color: #d0d0d0;
+    padding: 50px 20px;
+    text-align: center;
+}
